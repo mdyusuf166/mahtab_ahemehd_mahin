@@ -1,0 +1,28 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and builds
+node_modules/
+dist/
+coverage/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local uploads and generated artifacts
+apps/server/uploads/*
+!apps/server/uploads/.gitkeep
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
